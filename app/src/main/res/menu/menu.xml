@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_CardEkran"
+        android:title="Card Ekran" />
+    <item
+        android:id="@+id/action_BuyukEkran"
+        android:title="Yazı Ekran" />
+    <item
+        android:id="@+id/action_YaziEkran"
+        android:title="Büyük Ekran" />
+    <item
+        android:id="@+id/action_YaziEkranBitirilen"
+        android:title="Yazı Ekran Bitirilen" />
+    <item
+        android:id="@+id/action_BuyukEkranBitirilen"
+        android:title="Büyük Ekran Bitirilen" />
+    <item
+        android:id="@+id/action_CardBitirilen"
+        android:title="Card Ekran Bitirilen" />
+    <item
+        android:id="@+id/action_cikis"
+        android:title="Çıkış" />
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageViewNFC"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:src="@drawable/nfcc" />
+
+    <TextView
+        android:id="@+id/textViewNfc"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/imageViewNFC"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="LÜTFEN NFC OKUTUNUZ"
+        android:textAlignment="center"
+        android:textColor="#b60e03"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewNfcOkundumu"
+        android:layout_width="326dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/imageViewTik"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:text="Henüz NFC okutulmadı"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNfcKodIsmi"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/imageViewNFC"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:text="AS3443334"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewTik"
+        android:layout_width="115dp"
+        android:layout_height="88dp"
+        android:layout_below="@id/textViewNfc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginRight="146dp"
+        android:src="@drawable/index"
+        android:visibility="invisible" />
+
+</RelativeLayout>

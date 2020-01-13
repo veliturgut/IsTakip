@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardbuyukekran"
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="338dp">
+
+            <TextView
+                android:id="@+id/textViewBaslikkk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:text="BASLİK"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewYapilacakIs"
+                android:layout_width="330dp"
+                android:layout_height="128dp"
+                android:layout_below="@+id/textViewBaslikkk"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginRight="37dp"
+                android:text="YAPİLACAK İS" />
+
+            <TextView
+                android:id="@+id/textViewTarihKimAtti"
+                android:layout_width="358dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/textViewYapilacakIs"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:text="23.07.2012"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textViewAcil"
+                android:layout_width="124dp"
+                android:layout_height="39dp"
+                android:layout_below="@id/textViewTarihKimAtti"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="144dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="138dp"
+                android:layout_marginRight="138dp"
+                android:text="ACİL"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
